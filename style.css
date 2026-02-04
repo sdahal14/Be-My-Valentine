@@ -9,3 +9,14 @@ body {
   font-family: Arial, sans-serif;
   overflow: hidden;
 }
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-width: 320px;
+  width: 90%;
+  position: relative;
+  z-index: 1;
+}
