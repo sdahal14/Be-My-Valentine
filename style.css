@@ -9,6 +9,17 @@ body {
   font-family: Arial, sans-serif;
   overflow: hidden;
 }
+
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .card {
   background: white;
   padding: 40px;
@@ -20,3 +31,4 @@ body {
   position: relative;
   z-index: 1;
 }
+
