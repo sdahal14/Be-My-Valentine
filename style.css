@@ -1,7 +1,11 @@
-.photo {
-  width: 100%;
-  max-width: 250px;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
 }
