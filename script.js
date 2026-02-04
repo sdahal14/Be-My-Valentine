@@ -35,7 +35,7 @@ yesBtn.addEventListener("click", () => {
   document.querySelector(".card").innerHTML = `
     <h1>YAY!!! 💕🥰</h1>
     <p>I can’t wait to be your Valentine ❤️</p>
-    <img src="dancing-cat.gif" alt="Dancing Cat" class="cat-gif">
+    
   `;
 });
 
