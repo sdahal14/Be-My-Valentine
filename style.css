@@ -82,6 +82,30 @@ body {
   background-color: #ff4b61;
 }
 
+/* Pulse & bounce animation for YES button */
+@keyframes pulseBounce {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  25% {
+    transform: scale(1.05) translateY(-5px);
+  }
+  50% {
+    transform: scale(1.1) translateY(-10px);
+  }
+  75% {
+    transform: scale(1.05) translateY(-5px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+#yes {
+  animation: pulseBounce 1.5s infinite;
+}
+
+
 .card img.cat-gif {
   max-width: 200px;       /* fits nicely in the card */
   width: 50%;             /* responsive */
